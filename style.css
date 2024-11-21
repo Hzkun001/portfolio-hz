@@ -7,13 +7,13 @@
 	--color-white: rgb(255, 255, 255);
 
 	--text-color-second: rgb(68, 68, 68);
-	--text-color-third: rgb(164, 27, 210);
+	--text-color-third: #b3643a;
 
-	--first-color: rgb(110, 87, 224);
+	--first-color: #b3643a;
 	--first-color-hover: rgb(40, 91, 212);
 
-	--second-color: rgb(40, 91, 212);
-	--third-color: rgb(110, 87, 224);
+	--second-color: #b3643a;
+	--third-color: #d5b39c;
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
 }
@@ -225,8 +225,8 @@ nav{
 .icon:hover{
 		color: var(--first-color);
 		transform: scale(1.2)translateY(-5px);
-		background: #9664cb;
-		box-shadow: 0 0 10px #7b00ff;
+		background: #b3643a;
+		box-shadow: 0 0 10px #b3643a;
 		-webkit-transform: scale(1.2)translateY(-5px);
 		-moz-transform: scale(1.2)translateY(-5px);
 		-ms-transform: scale(1.2)translateY(-5px);
@@ -389,7 +389,7 @@ h3{
 }
 .project-box>i{
 	font-size: 50px;
-	color: #00B5E7;
+	color: #b3643a;
 	margin-bottom: 25px;
 }
 .project-box label{
@@ -508,7 +508,7 @@ h3{
   .view-project {
 	display: inline-block;
 	margin-top: 1rem;
-	color: #007bff;
+	color: #b3643a;
 	text-decoration: none;
 	font-weight: bold;
   }
@@ -561,7 +561,7 @@ textarea{
 	color: var(--color-white);
 }
 .form-button>.btn:hover{
-	background: #00B5E7;
+	background: #d5b39c;
 }
 .form-button i{
 	font-size: 18px;
@@ -708,5 +708,19 @@ footer{
 	}
 	.input-field{
 		width: 100%;
+	}
+	.featured-text-card {
+		margin-top: 2em;
+		display: flex;
+		justify-content: center;
+	}
+	.featured-text-btn{
+		display: flex;
+		justify-content: center;
+	}
+	.social_icons{
+		margin-bottom: 2em;
+		display: flex;
+		justify-content: center;
 	}
 }
